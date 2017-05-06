@@ -16,7 +16,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>22</executionTimeResult>
+      <executionTimeResult>2</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -35,7 +35,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-05-06 09:45:44.817 UTC</lastRunResult>
+  <lastRunResult>2017-05-06 09:56:30.229 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>groupama.test</packageName>
