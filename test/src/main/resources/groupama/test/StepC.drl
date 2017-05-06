@@ -13,17 +13,3 @@ rule "Step C"
 	    e.age = 30;
 	    e.before = drools.getRule().getName();
 end
-
-rule "Step C1"
-	dialect "mvel"
-	ruleflow-group "C"
-	//lock-on-active true
-	//auto-focus true
-	//salience 30
-	when
-	    e : Human()
-	then
-	    System.out.println(e.before + " --> " + drools.getRule().getName());
-	    e.age = 30;
-	    e.before = drools.getRule().getName();
-end
