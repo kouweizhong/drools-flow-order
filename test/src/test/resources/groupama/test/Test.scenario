@@ -16,17 +16,17 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>2</executionTimeResult>
-      <numberOfRulesFired>1</numberOfRulesFired>
+      <executionTimeResult>39</executionTimeResult>
+      <numberOfRulesFired>4</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>age</fieldName>
           <expected>30</expected>
-          <actualResult>1</actualResult>
+          <actualResult>10</actualResult>
           <successResult>false</successResult>
-          <explanation>[e] field [age] was [1] expected [30].</explanation>
+          <explanation>[e] field [age] was [10] expected [30].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -35,7 +35,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-05-06 09:56:30.229 UTC</lastRunResult>
+  <lastRunResult>2017-05-06 10:00:05.91 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>groupama.test</packageName>
