@@ -11,10 +11,10 @@ then
     //drools.setFocus("A");
     //drools.setFocus("B");
     //drools.getWorkingMemory().startProcess("test.HumanFlow"); 
-    drools.getWorkingMemory().fireAllRules(); 
+    //drools.getWorkingMemory().fireAllRules(); 
     drools.setFocus("A");
-    drools.setFocus("B");
-    drools.setFocus("C");
+    //drools.setFocus("B");
+    //drools.setFocus("C");
     //kcontext.getKieRuntime().startProcess("test.HumanFlow");
     //drools.getContext(org.kie.api.runtime.process.ProcessContext.class).setVariable("human", e);
     
