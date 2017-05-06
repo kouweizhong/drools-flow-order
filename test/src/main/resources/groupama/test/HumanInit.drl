@@ -6,6 +6,7 @@ when
    e:Human()
 then
     System.out.println(drools.getRule().getName() + ".start");
+    
     //drools.getWorkingMemory().insert(e);
     //drools.setFocus("C");
     //drools.setFocus("A");
