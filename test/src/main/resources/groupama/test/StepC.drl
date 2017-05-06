@@ -2,7 +2,7 @@ package groupama.test;
 
 rule "Step C"
 	dialect "mvel"
-	//ruleflow-group "C"
+	ruleflow-group "C"
 	//lock-on-active true
 	//auto-focus true
 	//salience 30
