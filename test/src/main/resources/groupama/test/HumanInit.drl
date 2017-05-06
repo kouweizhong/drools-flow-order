@@ -13,9 +13,11 @@ then
     //drools.getWorkingMemory().startProcess("test.HumanFlow"); 
     //drools.getWorkingMemory().fireAllRules(); 
     
+    kcontext.getKieRuntime().getAgenda().getAgendaGroup("A").setFocus(); 
+    
     drools.setFocus("C");
     drools.setFocus("B");
-    drools.setFocus("A");
+    //drools.setFocus("A");
     
     
     //kcontext.getKieRuntime().startProcess("test.HumanFlow");
