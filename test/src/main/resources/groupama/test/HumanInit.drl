@@ -17,12 +17,12 @@ then
     //kcontext.getKieRuntime().getAgenda().getAgendaGroup("C").setFocus();
     //kcontext.getKieRuntime().getAgenda().getAgendaGroup("A").setFocus();
     
-    //drools.setFocus("C");
-    //drools.setFocus("B");
-    //drools.setFocus("A");
+    drools.setFocus("C");
+    drools.setFocus("B");
+    drools.setFocus("A");
     
     
-    kcontext.getKieRuntime().startProcess("test.HumanFlow");
+    //kcontext.getKieRuntime().startProcess("test.HumanFlow");
     //drools.getContext(org.kie.api.runtime.process.ProcessContext.class).setVariable("human", e);
     
     //System.out.println(drools);
