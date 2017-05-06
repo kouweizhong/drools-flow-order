@@ -35,7 +35,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-05-06 12:32:02.116 UTC</lastRunResult>
+  <lastRunResult>2017-05-06 12:37:33.379 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>groupama.test</packageName>
