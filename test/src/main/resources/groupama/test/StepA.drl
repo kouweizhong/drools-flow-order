@@ -1,2 +1,16 @@
 package groupama.test;
 
+rule "Step A"
+	dialect "mvel"
+    ruleflow-group "A"
+	//salience 10
+	//lock-on-active true
+	//auto-focus true
+	when
+	    e : Human()
+	then
+	    //showResult.showText("Account in Group1");
+	    System.out.println(e.before + " --> " + drools.getRule().getName());
+	    e.age = 10;
+	    e.before = drools.getRule().getName();
+end
