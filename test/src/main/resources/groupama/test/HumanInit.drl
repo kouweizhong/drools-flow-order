@@ -1,2 +1,24 @@
 package groupama.test;
 
+rule "Human Init"
+salience 100
+when
+   e:Human()
+then
+    System.out.println(drools.getRule().getName() + ".start");
+    //drools.getWorkingMemory().insert(e);
+    //drools.setFocus("C");
+    //drools.setFocus("A");
+    //drools.setFocus("B");
+    //drools.getWorkingMemory().startProcess("turkuaz.HumanFlow"); 
+    //drools.getWorkingMemory().fireAllRules(); 
+    //kcontext.getKieRuntime().startProcess("turkuaz.HumanFlow");
+    //drools.getContext(org.kie.api.runtime.process.ProcessContext.class).setVariable("human", e);
+    
+    //System.out.println(drools);
+    //System.out.println(drools.getContext(org.kie.api.runtime.process.ProcessContext.class));
+    //System.out.println(drools.getContext(org.kie.api.runtime.process.ProcessContext.class).getProcessInstance());
+    //drools.getContext(org.kie.api.runtime.process.ProcessContext.class).setVariable("human", e);
+    
+    System.out.println(drools.getRule().getName() + ".end");
+end
