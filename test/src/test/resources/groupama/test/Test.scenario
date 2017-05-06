@@ -15,20 +15,27 @@
       <name>e</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>13</executionTimeResult>
+      <numberOfRulesFired>7</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>age</fieldName>
           <expected>30</expected>
+          <actualResult>10</actualResult>
+          <successResult>false</successResult>
+          <explanation>[e] field [age] was [10] expected [30].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>e</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2017-05-06 12:32:02.116 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>groupama.test</packageName>
